@@ -16,10 +16,11 @@ export default function Boda() {
       {/* HERO SECTION */}
       <header className="hero">
         <div className="hero-inner">
-          <span className="hero-eyebrow">una cosa que queremos contarte</span>
+          <div className="hero-intro-card">
+            <p className="hero-names">Yanelis & David</p>
+          </div>
           <h1 className="hero-title">Nos<br/>casamos 🤍</h1>
-          <div className="hero-eyebrow">y queremos compartirlo contigo.</div>
-          <p className="hero-sub">El 26 de septiembre damos un paso importante…
+          <p className="hero-sub"> Y queremos compartirlo contigo: el 26 de septiembre damos un paso importante…
 y nos hace mucha ilusión que formes parte de algo muy íntimo, muy nuestro.</p>
         </div>
       </header>

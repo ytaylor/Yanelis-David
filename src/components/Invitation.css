@@ -33,10 +33,23 @@ html { scroll-behavior: smooth; }
 .text-p { font-size: 16px; color: var(--ink-soft); line-height: 1.85; margin-bottom: 14px; }
 
 /* HERO */
-.hero { display: grid; place-items: center; text-align: center; padding: 80px 32px 60px; background: var(--cream); border-bottom: 1px solid rgba(156,107,60,0.18); }
-.hero-inner { max-width: 480px; }
-.hero-eyebrow { font-family: 'Caveat', cursive; font-size: 22px; color: var(--terra); margin-bottom: 24px; display: block; transform: rotate(-1.5deg); }
-.hero-title { font-family: 'Lora', serif; font-size: clamp(56px, 14vw, 96px); font-weight: 400; font-style: italic; line-height: 1; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 20px; }
+.hero { display: grid; place-items: center; text-align: center; padding: 92px 32px 68px; background: var(--cream); border-bottom: 1px solid rgba(156,107,60,0.18); }
+.hero-inner { max-width: 460px; }
+.hero-intro-card {
+  margin: 0 auto 16px;
+}
+
+.hero-names {
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-size: clamp(24px, 5vw, 32px);
+  font-style: italic;
+  line-height: 1;
+  color: var(--terra);
+  opacity: 0.9;
+}
+
+.hero-title { font-family: 'Lora', serif; font-size: clamp(56px, 14vw, 96px); font-weight: 400; font-style: italic; line-height: 1; letter-spacing: -0.02em; color: var(--ink); margin-bottom: 18px; }
 
 .btn-wa {
   display: inline-flex;
@@ -73,7 +86,7 @@ html { scroll-behavior: smooth; }
     font-weight: 300;
     color: var(--ink-soft);
     line-height: 1.7;
-    max-width: 320px;
+    max-width: 340px;
     margin: 0 auto;
   }
 
@@ -235,4 +248,5 @@ html { scroll-behavior: smooth; }
 
   @media (max-width: 480px) {
     .card { padding: 18px 18px; }
+    .hero { padding: 78px 24px 58px; }
   }
