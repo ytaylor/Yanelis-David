@@ -20,7 +20,7 @@ export default function Boda() {
             <p className="hero-names">Yanelis & David</p>
           </div>
           <h1 className="hero-title">Nos<br/>casamos 🤍</h1>
-          <p className="hero-sub"> Y queremos compartirlo contigo: el 26 de septiembre damos un paso importante…
+          <p className="hero-sub"> Y queremos compartirlo contigo: el <strong>26 de septiembre</strong> damos un paso importante…
 y nos hace mucha ilusión que formes parte de algo muy íntimo, muy nuestro.</p>
         </div>
       </header>
