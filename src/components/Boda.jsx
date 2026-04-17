@@ -76,7 +76,7 @@ Es más bien una reunión bonita, con gente muy elegida.</p>
 </a>
         )}
         <p style={{ fontSize: 13, color: "var(--ink-soft)", marginTop: 14, opacity: 0.7 }}>
-          Puedes hacerlo cuando quieras, sin ninguna prisa
+          Puedes hacerlo cuando quieras, sin prisas pero tambien sin pausa 😉. Nos hace ilusión ir sabiendo quiénes vendrán para organizarlo todo mejor.
         </p>
       </Section>
 
