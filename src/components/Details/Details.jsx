@@ -25,7 +25,7 @@ function Details() {
 
             <span className="detail-card__number">01</span>
 
-            <h3>Dress Code</h3>
+            <h3>Código de vestimenta</h3>
 
             <p className="detail-card__highlight">
               Ven como te sientas tú.

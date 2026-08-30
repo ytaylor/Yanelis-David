@@ -97,7 +97,7 @@ const Wedding = () => {
             </p>
 
             <small>
-              Utilizaremos únicamente elementos biodegradables.
+            <strong> Utilizaremos únicamente elementos biodegradables.</strong>
             </small>
           </div>
         </div>
