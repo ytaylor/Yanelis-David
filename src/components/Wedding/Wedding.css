@@ -75,7 +75,7 @@
   max-width: 540px;
   margin: 30px auto 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.9;
   color: #756962;
 }
@@ -93,7 +93,7 @@
   display: block;
   margin-bottom: 20px;
   font-family: "Montserrat", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 4px;
   color: #a66f59;
 }
@@ -158,7 +158,7 @@
 .wedding-event__time small {
   margin-left: 2px;
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
+  font-size: 11px;
   color: #756962;
 }
 
@@ -228,7 +228,7 @@
   max-width: 580px;
   margin: 22px 0 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.9;
   color: #756962;
 }
@@ -247,7 +247,7 @@
   color: #a66f59;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 2px;
   transition: gap 0.2s ease;
 }
@@ -285,7 +285,7 @@
 
 .wedding__schedule span {
   font-family: "Montserrat", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   color: #756962;
@@ -322,7 +322,7 @@
 .wedding-note p {
   margin: 0 0 10px;
   font-family: "Montserrat", sans-serif;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.8;
   color: #756962;
 }
@@ -331,7 +331,7 @@
   display: block;
   margin-top: 15px;
   font-family: "Montserrat", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   line-height: 1.6;
   letter-spacing: 0.3px;
   color: #a66f59;
@@ -365,7 +365,7 @@
 .wedding__approx p {
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
   color: #756962;
 }
@@ -386,7 +386,7 @@
 .wedding__closing > span {
   display: block;
   font-family: "Montserrat", sans-serif;
-  font-size: 9px;
+  font-size: 11px;
   letter-spacing: 4px;
   text-transform: uppercase;
   color: #a66f59;

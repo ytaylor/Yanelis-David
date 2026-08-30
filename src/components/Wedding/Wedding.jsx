@@ -10,7 +10,7 @@ const Wedding = () => {
 
         {/* INTRO */}
         <div className="wedding__intro">
-          <span className="wedding__eyebrow">THE WEDDING</span>
+          <span className="wedding__eyebrow">LA BODA</span>
 
           <h2>
             Nuestro
@@ -25,7 +25,7 @@ const Wedding = () => {
 
         {/* FECHA */}
         <div className="wedding__date">
-          <span className="wedding__date-label">SAVE THE DATE</span>
+          <span className="wedding__date-label">TE ESPERAMOS</span>
 
           <div className="wedding__date-main">
             <span>26</span>
@@ -86,7 +86,7 @@ const Wedding = () => {
 
             <p>
               Al celebrarse la ceremonia en un entorno natural tan especial,
-              os pedimos que no llevéis fuegos artificiales, confeti u otros
+              os pedimos que no llevéis cañones, confeti u otros
               elementos que puedan dejar residuos.
             </p>
 

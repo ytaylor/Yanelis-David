@@ -16,7 +16,7 @@
   display: block;
   margin-bottom: 18px;
   color: #a96f5d;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -34,7 +34,7 @@
   max-width: 500px;
   margin: 0 auto;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.8;
   color: #756b62;
 }
@@ -96,7 +96,7 @@
   display: block;
   margin-bottom: 6px;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.65rem;
+  font-size: 0.72rem;
   letter-spacing: 0.2em;
   color: #9c9188;
 }
@@ -129,7 +129,7 @@
   max-width: 450px;
   margin: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   line-height: 1.8;
   color: #756b62;
 }
@@ -155,7 +155,7 @@
   display: inline-block;
   margin-top: 12px;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none;
@@ -205,7 +205,7 @@
   }
 
   .timeline__content p {
-    font-size: 0.74rem;
+    font-size: 0.85rem;
     line-height: 1.7;
   }
 

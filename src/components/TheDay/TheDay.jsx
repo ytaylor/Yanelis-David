@@ -75,7 +75,7 @@ function TheDay() {
 
               {event.image && (
                 <div className="timeline__location">
-                  <img src={event.image} alt={event.place} />
+              
 
                   {event.location && (
                     <a
