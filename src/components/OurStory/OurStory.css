@@ -1,0 +1,171 @@
+.our-story {
+  background-color: #f4eee8;
+  color: #51443d;
+  padding: 110px 24px;
+  text-align: center;
+}
+
+.our-story__content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TÍTULO PEQUEÑO */
+
+.our-story__eyebrow {
+  margin: 0 0 24px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.28em;
+  color: #a66f5d;
+}
+
+/* TITULAR */
+
+.our-story h2 {
+  max-width: 650px;
+  margin: 0 auto;
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 400;
+  line-height: 0.95;
+  color: #51443d;
+}
+
+.our-story h2 span {
+  display: block;
+  font-style: italic;
+  color: #a66f5d;
+}
+
+/* SEPARADOR */
+
+.our-story__divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin: 38px auto;
+  color: #a66f5d;
+  font-size: 0.9rem;
+}
+
+.our-story__divider span {
+  width: 60px;
+  height: 1px;
+  background-color: #c9b4a7;
+}
+
+/* FOTO */
+
+.our-story__photo {
+  width: min(100%, 520px);
+  height: 620px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.our-story__photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* TEXTO */
+
+.our-story__text {
+  max-width: 540px;
+  margin: 42px auto 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  line-height: 1.9;
+  font-weight: 300;
+  color: #6b5a51;
+}
+
+.our-story__date {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  letter-spacing: 0.3em;
+  color: #a66f5d;
+}
+
+/* HITOS */
+
+.our-story__milestones {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+  margin-top: 100px;
+  padding-top: 70px;
+  border-top: 1px solid #d7c6ba;
+}
+
+.milestone {
+  padding: 0 20px;
+}
+
+.milestone__icon {
+  display: block;
+  margin-bottom: 20px;
+  color: #a66f5d;
+  font-size: 1.1rem;
+}
+
+.milestone h3 {
+  margin: 0 0 12px;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #51443d;
+}
+
+.milestone p {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  line-height: 1.8;
+  font-weight: 300;
+  color: #75655d;
+}
+
+/* TABLET / MÓVIL */
+
+@media (max-width: 768px) {
+  .our-story {
+    padding: 80px 20px;
+  }
+
+  .our-story__photo {
+    height: 480px;
+  }
+
+  .our-story__milestones {
+    grid-template-columns: 1fr;
+    gap: 55px;
+    margin-top: 70px;
+    padding-top: 55px;
+  }
+
+  .milestone {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .our-story h2 {
+    font-size: 2.8rem;
+  }
+
+  .our-story__photo {
+    height: 430px;
+  }
+
+  .our-story__text {
+    font-size: 0.88rem;
+  }
+}
+

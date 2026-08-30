@@ -1,0 +1,152 @@
+
+/* =========================================
+   HERO
+   ========================================= */
+
+.hero {
+  min-height: 88vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  padding: 80px 32px 64px;
+
+  background: var(--paper);
+
+  border-bottom: 1px solid rgba(156, 107, 60, 0.18);
+}
+.hero-inner {
+  width: 100%;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+
+/* NOMBRES */
+
+.hero-names {
+  margin: 0 0 14px;
+
+  font-family: 'Lora', serif;
+  font-size: clamp(25px, 5vw, 32px);
+  font-weight: 400;
+  font-style: italic;
+
+  line-height: 1.2;
+
+  color: var(--terra);
+}
+
+
+/* FECHA */
+
+.hero-date {
+  margin: 0 0 42px;
+
+  font-family: 'Caveat', cursive;
+  font-size: 22px;
+  font-weight: 400;
+
+  color: var(--terra-l);
+}
+
+
+/* TÍTULO */
+
+.hero-title {
+  margin: 0 0 28px;
+
+  font-family: 'Lora', serif;
+  font-size: clamp(54px, 13vw, 82px);
+  font-weight: 400;
+  font-style: italic;
+
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+
+  color: var(--ink);
+}
+
+
+/* TEXTO */
+
+.hero-sub {
+  max-width: 330px;
+  margin: 0 auto;
+
+  font-family: 'Jost', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+
+  line-height: 1.75;
+
+  color: var(--ink-soft);
+}
+
+
+/* SCROLL */
+
+.hero-scroll {
+  display: block;
+
+  margin-top: 48px;
+
+  font-family: 'Jost', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+
+  color: var(--terra);
+
+  opacity: 0.55;
+
+  animation: heroScroll 2.5s ease-in-out infinite;
+}
+
+@keyframes heroScroll {
+  0%,
+  100% {
+    transform: translateY(0);
+    opacity: 0.4;
+  }
+
+  50% {
+    transform: translateY(6px);
+    opacity: 0.75;
+  }
+}
+
+
+/* =========================================
+   MÓVIL
+   ========================================= */
+
+@media (max-width: 480px) {
+
+  .hero {
+    min-height: 86vh;
+    padding: 65px 24px 50px;
+  }
+
+  .hero-date {
+    margin-bottom: 34px;
+    font-size: 21px;
+  }
+
+  .hero-names {
+    font-size: 27px;
+  }
+
+  .hero-title {
+    font-size: clamp(58px, 17vw, 78px);
+    margin-bottom: 26px;
+  }
+
+  .hero-sub {
+    font-size: 14px;
+    max-width: 300px;
+  }
+
+  .hero-scroll {
+    margin-top: 40px;
+  }
+}
