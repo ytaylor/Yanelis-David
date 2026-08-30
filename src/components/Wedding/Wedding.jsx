@@ -121,7 +121,7 @@ const Wedding = () => {
 
             <h3>
               Restaurante
-              <em> Río Luz</em>
+              <em> Río Luz en la Cúpula del Milenio</em>
             </h3>
             <div className="our-story__photo">       <img src={fotoRioLuz } /></div>
 

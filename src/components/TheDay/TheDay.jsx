@@ -15,7 +15,7 @@ const events = [
   {
     time: "13:30",
     title: "Cóctel",
-    place: "Restaurante Río Luz",
+    place: "Restaurante Río Luz en la Cúpula del Milenio",
     description:
       "Brindaremos, picaremos algo y disfrutaremos juntos de este momento.",
     image: fotoRioLuz  },
